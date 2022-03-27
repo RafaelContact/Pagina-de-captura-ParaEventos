@@ -24,5 +24,36 @@ header{
     font-size: 26px;
 }
 section{
+    padding: 20px;
+    background-image: url(../asets/people.jpg);
+    /* o elemento float faz com que a imagem se comporte como incompleta escondendo o conteúdo, mas se eu usar o overflow hiden, ela funciona normalmente e mostra o que se escondeu */
+    background-size: cover;
+    overflow: hidden; 
+}
+.formcontainer{
+    max-width: 230px;
+    background-color: #ffffffbb;
+    padding: 20px;
+    float: right;
+}
+h2{
+    font-size: 16px;
+}
+.mb{
+    margin-bottom: 15px;
+}
+/* usando essa classe para aplicar as classificações tanto de escolha dos estados como para os inputs e ficando todos do mesmo tamnho, inclusive o botão. */
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+/* Estilo para o botão */
+    /* não preciso colocar uma classe para selecionar cada tipo de objeto do html, apenas informar o tipo */
+input[type="submit"]{
     color: white;
+    background-color: #48C5CE;
+    font-weight: bold;
 }
