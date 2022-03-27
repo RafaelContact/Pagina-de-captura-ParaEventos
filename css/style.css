@@ -66,7 +66,27 @@ select{
 
     background-image: url(../asets/arrow.jpg);
     background-repeat: no-repeat;
-    
+
     background-position-x: calc(100% - 10px);
     background-position-y: center;
+}
+footer{
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+    /* como os elementos do footer estão com display inline block os text aligne vai funcionar  de uma forma que ira centralizar todos os paragrafos ao lado da imagem */
+}
+.picture{ 
+    width: 160px;
+}
+.description{
+    background-color: #48C5CE;
+    display: inline-block;
+    /* usando text aligne em cima para dentralizar texto e imagem, agora dentro de outra div usou o text aligne left para ele ficar bem posicionado ao lado da imagem */
+    text-align: center;
+    max-width: 40%;
+    margin-left: 40px;
+}
+.description p, .description h3{
+
 }
