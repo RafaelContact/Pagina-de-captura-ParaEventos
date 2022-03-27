@@ -30,6 +30,7 @@ section{
     background-size: cover;
     overflow: hidden; 
 }
+/* BOX CONTAINER */
 .formcontainer{
     max-width: 230px;
     background-color: #ffffffbb;
@@ -92,4 +93,32 @@ footer{
 }
 h3{
     font-size: 24px;
+}
+@media screen and (max-width:500px) {
+    .formcontainer{
+        float: none;
+        margin: auto;
+        max-width: 300px;
+    }
+    .title{
+        font-size: 18px;
+    }
+    .picture{
+        width: 50vw;
+        margin: auto;
+    }
+    footer{
+        display: block;
+    }
+    .description{
+        text-align: justify;
+        /* Mesmo sem mostrar margin, ou display block o max width pode reduzir o tamnho de um objeto. */
+        max-width: 100%;
+    }
+    .description p, .description h3{
+        max-width: 100%;
+    }
+    .description h3{
+        text-align: center;
+    }
 }
