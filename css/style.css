@@ -57,3 +57,16 @@ input[type="submit"]{
     background-color: #48C5CE;
     font-weight: bold;
 }
+
+select{
+    /* tags experimentais como aperance podem vir com o moz para configurar os navegadores, no caso abaixo deletou as configurações padrão para aplicar a minha */
+    -moz-apperance: none;
+    appearance: none;
+    -webkit-appearance: none;
+
+    background-image: url(../asets/arrow.jpg);
+    background-repeat: no-repeat;
+    
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
