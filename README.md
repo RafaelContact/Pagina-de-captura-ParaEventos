@@ -1,4 +1,4 @@
-# Paghina-de-captura-ParaEventos
+# O que aprendi
 Com esse projeto eu aprendi a usar melhor algumas tags semânticas do html, como utilizar melhor o media querie, novas formas de posicionar o background e a trabalhar com tags que ainda não são muito implementadas em todos os navegadores. Usando assim o -moz e -webkit no css para anula-los e colocar minha estilização
 ## O Valor do projeto
 O principal valor desse projeto foi entender para quem posso desenvolver sites o qual valor vou gerar com uma página de captura, algo além de uma capacidade técnica, uma pagina de captura é uma ferramenta de comunicação em massa quando integrada a gerenciadores de contatos como mailchimp.
