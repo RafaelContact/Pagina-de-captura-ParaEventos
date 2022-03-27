@@ -80,13 +80,16 @@ footer{
     width: 160px;
 }
 .description{
-    background-color: #48C5CE;
     display: inline-block;
+    color: white;
     /* usando text aligne em cima para dentralizar texto e imagem, agora dentro de outra div usou o text aligne left para ele ficar bem posicionado ao lado da imagem */
-    text-align: center;
+    text-align: left;
     max-width: 40%;
     margin-left: 40px;
 }
 .description p, .description h3{
-
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 24px;
 }
